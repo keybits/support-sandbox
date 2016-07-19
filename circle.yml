@@ -1,8 +1,7 @@
 dependencies:
   pre:
     - "sudo start redis-server"
-    - "ls -la /var/run/redis/"
-    - "cat /var/run/redis/redis-server.pid"
+    - "ls -la /usr/bin/redis-server"
     - "sudo tail --lines=20 /var/log/redis/redis-server.log"
 
 test:
