@@ -22,4 +22,4 @@ test:
       curl -X POST \
       --header "Content-Type: application/json" \
       -d "{}" \
-      "https://circleci.com/api/v1/project/keybits/support-sandbox/tree/find-flakey-redis?circle-token=$CIRCLE_REPO_TOKEN"
+      "https://circleci.com/api/v1/project/keybits/support-sandbox/tree/find-flaky-redis?circle-token=$CIRCLE_REPO_TOKEN"
