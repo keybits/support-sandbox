@@ -1,7 +1,3 @@
-machine:
-  services:
-    - redis
-
 dependencies:
   pre:
     - "sudo start redis-server"
