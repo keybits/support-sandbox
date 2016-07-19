@@ -4,6 +4,7 @@ machine:
 
 dependencies:
   pre:
+    - "sudo start redis-server"
     - "ls -la /var/run/redis/"
     - "cat /var/run/redis/redis-server.pid"
     - "sudo tail --lines=20 /var/log/redis/redis-server.log"
